@@ -1,7 +1,8 @@
 # RequestCode302URL
 iOS AFN 和NSURLSession分别 获取重定向地址code 302
 工作中遇到了获取重定向URL地址的问题,网上AFN获取的文章比较少,所以打算记录一下.话不多说.直接上代码
-## 1: NSURLSession 方法 (记得设置<NSURLSessionTaskDelegate>)
+## 1: NSURLSession 方法 
+(记得设置 NSURLSessionTaskDelegate )
 /// 用NSURLSession 获取重定向URL地址
 重点是 willPerformHTTPRedirection 这个代理方法
 ```
